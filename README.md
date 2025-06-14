@@ -115,7 +115,7 @@ Works in all modern browsers that support:
 ## Contact & Bug Reports
 
 Found a bug? Want to contribute? Contact me at:
-- Email: [add your email here]
+- Email: njv1901@njv.edu.pk
 - Subject Line: "Clickie Speed Test - Bug Report/Contribution"
 
 Please include:
