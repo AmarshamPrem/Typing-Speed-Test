@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clickie - Speed Test</title>
+  <link rel="stylesheet" href="counter.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Clickie</h1>
+    
+    <nav class="nav-bar">
+      <a href="#" class="nav-item active" data-test="clicks">CPS</a>
+      <a href="#" class="nav-item" data-test="wpm">WPM</a>
+    </nav>
+    
+    <div class="type-area">
+      <div id="click-area" class="click-area hidden">
+        Click anywhere in this area!
+      </div>
+      <div class="text-content">
+        <div class="text-display" id="quote"></div>
+        <div class="input-display" id="input-display"></div>
+      </div>
+      <textarea id="input" placeholder="Click 'Start' to begin..." spellcheck="false"></textarea>
+    </div>
+    
+    <div class="controls">
+      <div class="time-options">
+        <button class="time-btn active" data-time="5">5s</button>
+        <button class="time-btn" data-time="10">10s</button>
+        <button class="time-btn" data-time="30">30s</button>
+        <button class="time-btn" data-time="60">1m</button>
+        <button class="time-btn" data-time="300">5m</button>
+      </div>
+      <button id="startBtn">Start</button>
+      <p>Time: <span id="timer">0</span>s</p>
+    </div>
+
+    <div class="result" id="resultBox">
+      <div class="result-grid">
+        <div class="metric-group clicks-metrics">
+          <div class="result-item">
+            <span class="label">CLICKS PER SECOND</span>
+            <span class="value" id="cps">0</span>
+          </div>
+          <div class="result-item">
+            <span class="label">CLICKS PER MINUTE</span>
+            <span class="value" id="cpm">0</span>
+          </div>
+        </div>
+        <div class="metric-group wpm-metrics hidden">
+          <div class="result-item">
+            <span class="label">WORDS PER SECOND</span>
+            <span class="value" id="wps">0</span>
+          </div>
+          <div class="result-item">
+            <span class="label">WORDS PER MINUTE</span>
+            <span class="value" id="wpm">0</span>
+          </div>
+        </div>
+        <div class="result-item accuracy-item">
+          <span class="label">Accuracy</span>
+          <span class="value" id="accuracy">0%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
