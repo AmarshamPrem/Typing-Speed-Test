@@ -2,7 +2,7 @@
 
 A modern, web-based speed testing application that lets you measure your clicking speed (CPS) and typing speed (WPM) in a clean, minimal interface.
 
-⚠️ **Note**: This project is a work in progress and has some known bugs. If you find issues or want to contribute to fixing them, please contact me at: [add your email here]
+⚠️ **Note**: This project is a work in progress and has some known bugs. If you find issues or want to contribute to fixing them, please contact me at: [njv1901@njv.edu.pk]
 
 ## Overview
 This application started as a simple CPS counter and evolved into a dual-mode speed testing tool. While it's functional, there are areas that need improvement, particularly in the WPM calculation accuracy and the typing test flow.
